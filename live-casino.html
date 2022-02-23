@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EM88</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- load cubeportfolio css file -->
+  <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
+  <!-- load cubeportfolio jQuery plugin -->
+  <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+</head>
+<body>
+<div class="ovrley_bg"></div>
+<nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="images/logo-em88@2x.png"></a>
+      <button class="navbar-toggler ocdefmnbtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <i class="fa fa-bars"></i>
+  </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">Slots</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Live Casino</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">4D</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">Promotions</a>
+          </li>
+          <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li>
+        </ul>
+        <div class="buttons">
+              <a class="nav-link bp oc_login_nav" data-toggle="modal" data-target="#oc_login_modal" href="#">Login</a>
+              <a class="nav-link by oc_sign_up_nav" data-toggle="modal" data-target="#oc_signup_modal" href="#">SIGN UP</a>
+          </div>
+      </div>
+      <div class="occustmobmenu_main">
+      <button class="navbar-toggler" id="ocCustMobMenuBtn" type="button" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-close"></i>
+    </button>
+
+    <div class="occustmobmenu" id="ocCustMobMenu">
+      <div class="occustmobmenu_ulmain">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/games.svg"></span>
+                <span class="occustaspan_left_name">Home</span>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="sports.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">Sports</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/payments.svg"></span>
+                <span class="occustaspan_left_name">Slots</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="live-casino.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/tournament.svg"></span>
+                <span class="occustaspan_left_name">Live Casino</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">4D</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/promotions.svg"></span>
+                <span class="occustaspan_left_name">Promotions</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item ocmnchat">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/chat.svg"></span>
+                <span class="occustaspan_left_name">Live Chat</span>
+              </span>
+              </a>
+          </li>
+          <!-- <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li> -->
+        </ul>
+    </div>
+    </div>
+  </div>
+
+  <div class="ocmnlgsg_main">
+    <div class="ocmnlgbtn">
+      <a class="nav-link bp oc_login_nav" data-toggle="modal" data-target="#oc_login_modal" href="#">Login</a>
+    </div>
+    <div class="ocmnsgbtn">
+      <a class="nav-link by oc_sign_up_nav" data-toggle="modal" data-target="#oc_signup_modal" href="#">SIGN UP</a>
+    </div>
+  </div>
+  </nav>
+
+<div class="row banner" id="casino-banner">
+    <div class="col-lg-6 col-md-6 col-xs-12" style="display:flex">
+      <div class="left_banner" style="margin: auto;">
+        <img src="images/pngwave@2x.png">
+        <h3>Deposit & get your Rebate daily even you are not playing</h3>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <div class="right_banner">
+        <h4><img src="images/Daco_4407486@2x.png"> WITHDRAWALS WITHIN 5 MINUTES!</h4>
+
+        <div class="contact_box">
+          <h3>SIGN UP NOW</h3>
+          <p>Get 100% Welcome Bonus with x5 Turnover only!</p>
+          <form>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r w-100" type="text" name="username" placeholder="Username">
+              </div>
+              <div class="col px-1">
+                <input class="realname w-100" type="text" name="realname" placeholder="Real name">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r phone w-100" type="text" name="phone" placeholder="Phone">
+              </div>
+              <div class="col px-1">
+                <input class=" w-100" type="email" name="Email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input type="password" class="mrg-r w-100" name="Password" placeholder="Password">
+              </div>
+              <div class="col px-1">
+                <input type="passoword" name="Confirm Password" placeholder="Confirm Password" class="w-100">
+              </div>
+            </div>
+           
+            <div class="check"><input type="checkbox" name="checkbox"> I agree the <a href="#"> T&amp;C </a> and i'm 18 years old</div>
+            <button>Sign UP</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="ocportflo_slider">
+	<!-- <div class="clearfix">
+	    <div id="js-filters-mosaic-projects1" class="cbp-l-filters-button cbp-l-filters-left">
+	        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+	        <div data-filter=".identity" class="cbp-filter-item">Identity</div>
+	        <div data-filter=".web-design" class="cbp-filter-item">Web Design</div>
+	        <div data-filter=".print" class="cbp-filter-item">Print</div>
+	    </div>
+
+	    <div id="js-filters-mosaic-projects2" class="cbp-l-filters-button cbp-l-filters-right">
+	        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+	        <div data-filter=".graphic" class="cbp-filter-item">Graphic</div>
+	        <div data-filter=".logos_prtflo" class="cbp-filter-item">Logo</div>
+	        <div data-filter=".motion" class="cbp-filter-item">Motion</div>
+	    </div>
+	</div> -->
+
+	<div class="ocportflo_headmain">
+		<h2>Live Casinos</h2>
+		<p>EM88 offers the most popular live casino games such as Roulette, Blackjack, Baccarat, Sic-Bo, and others. The games can be broadcasted live on your mobile devices, desktop or smart TV, play anywhere, whenever you feel like it. We provide players with the most complete online casino gaming experience in Malaysia.</p>
+
+	</div>
+
+	<div id="js-grid-mosaic-projects" class="cbp cbp-l-grid-mosaic-projects">
+	    <div class="cbp-item web-design graphic print motion">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ab19cd" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">Playwell</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item web-design logos_prtflo identity graphic">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ae557b" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">World Clock</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item graphic print identity">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ff7f64" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">To-Do Dashboard</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item web-design motion logos_prtflo">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/8853e3" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">Events and More</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item web-design graphic print">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b08497" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">WhereTO App</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item motion print logos_prtflo web-design">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/319ca5" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">Ski * Buddy</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item graphic logos_prtflo">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/33cbc1" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">Seemple* Music</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	    <div class="cbp-item identity print logos_prtflo motion">
+	        <a href="#" class="cbp-caption" target="_blank">
+	            <div class="cbp-caption-defaultWrap">
+	                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b4e2cf" alt="">
+	            </div>
+	            <div class="cbp-caption-activeWrap"></div>
+	        </a>
+	        <div class="cbp-l-grid-projects-title">Remind~Me More</div>
+	        <div class="cbp-l-grid-projects-desc ocportflo_desc">
+	        	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus interdum posuere.</div>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+<div class="ocportflo_slider_faq">
+	
+    <h2>FAQ<h2/>
+    <div id="js-grid-faq" class="cbp cbp-l-grid-faq">
+
+        <div class="cbp-item buying">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    Are Live casino safe?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                    	Three things to know if a Live Casino is safe by below 
+                    	<ol>
+						<li>Where is the live casino licensed?</li>
+						<li>What software does it use?</li>
+						<li>Who runs the live casino?</li>
+						</ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item community">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    
+Here’s how to determine if a live casino is secure.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        <ol>
+						<li>Look at the bottom of the live casino’s homepage to check where is it licensed.</li>
+						<li>The Live Casino connection should be encrypted with SSL by look at your browser’s address
+If there is a lock icon next to the URL, it means the connection is secured. If it shows “Not Secure”, please play by your own risk.</li>
+						</ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item buying">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    
+A reliable and secure live casino must have 4 of these conditions.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        <ol>
+						<li>Has an operating license issued by a regulatory authority</li>
+						<li>Has an encryption system that protects your personal and sensitive data</li>
+						<li>Offer a wide range of games by well-known providers such as Playtech, Betsoft, Asiagaming, etc. Do some google searching before playing!</li>
+						<li>Make sure the personal data (full name, postal address, telephone number, bank details ...) of the players are not given to any third party.</li>
+						</ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    Are there any Live Casino Tips?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        <p>Follow the 6 points below to become a live casino master and win prizes!</p>
+							<h5>Find a suitable live dealer</h5>
+							In live casino , the dealers are commonly a real person. If the dealer is sloppy with his/her cards, you will notice. Keep in mind that your decisions at the Blackjack table depend on the two cards you received initially and the dealer's outs.<br/><br/>
+							<h5>Learn some simple strategies about Blackjack</h5>
+							Blackjack games utilize a set number of cards. When a card is dealt, the card is off the deck and it will change the probability of the remaining cards. Making remembering &amp; guessing cards are possible thus increase your probability of winning.<br/><br/>
+							<h5>Never try to recover your loss</h5>
+							Always set a budget before betting. After you finished your budget, take a break, and try again the next day! The more you trying to cover your loss, the likely you increases your loss.<br/><br/>
+							<h5>Understand the Roulette system</h5>
+							Experienced Roulette players know that different Roulette has different odds, which you might not know. There are three kind of Roulette, European, French, American Roulette.<br/><br/>
+							<h5>Practice before play with real money</h5>
+							Most live casino games have a test play mode. Normally you have to register to try them. Once you have familiarized with the games, you can start playing with smaller amount and slowly increase it when you get better.<br/><br/>
+							<h5>Check the bet limit</h5>
+							All live casino has a different bet limit just like how real casino has different tables. Look for a limit that you are comfortable to play with.<br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item copyright">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    What is the difference of Real casino & Online casino?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        <h5>Dealer</h5>
+						<p>There are real-life dealers in live casinos, while there are also programmed AI Dealers to simulate a real casino. Dealers are the ones that distribute the cards and interact with you during the game. So, it is important to know whether you are playing with an AI or Real human dealer.</p>
+						<h5>Communication</h5>
+						<p>You can communicate and talk to the dealers if you are playing on a Live casino, commonly by typing messages. While Online casino games with AI dealer don&rsquo;t.</p>
+						<h5>Venue</h5>
+						<p>The selling point of Online casinos allow you play casino games at anywhere as longest you got a computer or smartphone. Pick a game room and you can start playing at your own pace and do not need to worry about anything in a pressure-free environment. While a Live casino requires your attention as it basically is how real casino works, but online.</p>
+						<h5>Technology</h5>
+						<p>The invention of the high-definition real-time video is a popular feature in online casinos. You can use this feature to communicate with a real-life dealer. It allows you to feel as if you are in an online casino, further bridging the gap between real casinos and online casinos.</p>
+						<h5>Cost</h5>
+						<p>The cost of a live casino is much higher because they are hiring real people as dealers. Furthermore, live casinos require some specific and professional systems. Due to these reasons, the games' bets in live casinos are much higher. On the other hand, online casinos can bring more fun to the players at a lower cost as compared to live casinos.</p>
+						                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    What games there are in Live Casino?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                       Each provider has their own offering of Live table games. The most common ones are Blackjack, Baccarat and Roulette which are almost always available by provider.<br/><br/>
+					Roulette is one of the most popular and simplest Live games that everyone played at least once.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item account">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    
+					Which are the Best Live casino games to win?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        <h5>Live Roulette</h5>
+						<p>The American Roulette, almost all the bets have a 5.26% winning chance (or 2/38). As for European Roulette, the winning chance is 2.70% (1/37).</p>
+						<h5>Live Baccarat</h5>
+						<p>The cards in the player's hand win 44.62% of the time, while the dealer loses 45.85% of the time. Ties are rare, but they do happen. Chances of a tie are 9.53% and the gain from a tie is 8 to</p>
+						<h5>Live Blackjack</h5>
+						Blackjack is mainly about your skills and some luck. Due to it being a skill-based game, you must play this game with some know-how. The probability of a blackjack victory is 42.22%, the draw is 8.48%, and the loss is 49.10%.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="row logos">
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/maybank-logo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/pbbankwhite.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/cimbwhitelogo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/unnamed.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/logo-dark.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/help2pay@2x.png">
+	</div>
+</div>
+
+<div class="row footer">
+	<div class="col-md-12">
+		<img id="footer_logo" src="images/logo-em88@2x.png">
+		<div class="footer_menu">
+			<a href="#">Home</a><a href="#">How It work</a><a href="#">payment</a><a href="#">faq</a><a href="#">terms & conditions</a><a href="#">complains</a><a href="#">responsible gaming</a><a href="#">affiliates</a><a href="#">tournament</a><a href="#">slots</a><a href="#">live casino</a><a href="#">sportsbook</a><a href="#">4d</a><a href="#">promotion</a><a href="#">livechat</a><a href="#">Contact Us</a><a href="#">Livescores</a>
+		</div>
+    <div class="footer_pay_icons">
+      <a href="#" title="Amatic (AMANET)" target="_blank"><img src="images/payments/amatic.svg"></a>
+      <a href="#" title="1x2 Gaming" target="_blank"><img src="images/payments/1x2gaming.svg"></a>
+      <a href="#" title="Belatra" target="_blank"><img src="images/payments/belatra.svg"></a>
+      <a href="#" title="Booming Games" target="_blank"><img src="images/payments/booming.svg"></a>
+      <a href="#" title="Bgaming" target="_blank"><img src="images/payments/bgaming.svg"></a>
+      <a href="#" title="Betsoft Gaming" target="_blank"><img src="images/payments/bsg.svg"></a>
+      <a href="#" title="Endorphina" target="_blank"><img src="images/payments/endorphina.svg"></a>
+      <a href="#" title="Evolution Gaming Live Dealers" target="_blank"><img src="images/payments/evolution.svg"></a>
+      <a href="#" title="Evoplay" target="_blank"><img src="images/payments/evoplay.svg"></a>
+      <a href="#" title="Ezugi" target="_blank"><img src="images/payments/ezugi.svg"></a>
+      <a href="#" title="GameArt" target="_blank"><img src="images/payments/gameart.svg"></a>
+      <a href="#" title="Habanero" target="_blank"><img src="images/payments/habanero.svg"></a>
+      <a href="" title="IGTech" target="_blank"><img src="images/payments/igtech.svg"></a>
+      <a href="#" title="Iron Dog Studio" target="_blank"><img src="images/payments/irondogstudio.svg"></a>
+      <a href="#" title="Isoftbet" target="_blank"><img src="images/payments/isoftbet.svg"></a>
+      <a href="#" title="Micrograming / Quickfire" target="_blank"><img src="images/payments/microgaming.svg"></a>
+      <a href="#" title="MrSlotty" target="_blank"><img src="images/payments/mrslotty.svg"></a>
+      <a href="#" title="NetEnt ( Net Entertainment )" target="_blank"><img src="images/payments/netent.svg"></a>
+      <a href="#" title="NoLimit City" target="_blank"><img src="images/payments/nolimit.svg"></a>
+      <a href="#" title="Platipus" target="_blank"><img src="images/payments/platipus.svg"></a>
+      <a href="#" title="Pragmatic Play" target="_blank"><img src="images/payments/pragmatic.svg"></a>
+      <a href="#" title="Play'n GO" target="_blank"><img src="images/payments/playngo.svg"></a>
+      <a href="#" title="Spinomenal" target="_blank"><img src="images/payments/spinomenal.svg"></a>
+      <a href="#" title="Quickspin" target="_blank"><img src="images/payments/quickspin.svg"></a>
+      <a href="#" title="Vivogaming" target="_blank"><img src="images/payments/vivogaming.svg"></a>
+      <a href="#" title="Yggdrasil GAming" target="_blank"><img src="images/payments/yggdrasil.svg"></a>
+      <div class="footer_pay_icons_inner">
+        <a href="#" target="_blank"><img src="images/payments/bitcoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/litecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/dogecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/bitcoincash.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ethereum.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/tether.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neosurf.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/russiancards.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/visa.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/mastercard.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/sofort.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/skrill.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neteller.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ecopayz.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/instadebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/idebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/interac.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/etransfer.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/yandex.svg"></a>
+      </div>
+    </div>
+	</div>
+</div>
+
+
+
+<!-- Login Popup Modal -->
+<div class="modal fade oc_login_modal" id="oc_login_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <div class="oc_forget_pass">
+            <a href="#">Forgot Your Password?</a>
+            <div class="oc_dont_have_ac">Don't have an account?<a href="#"> Sign Up</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sign Up Popup Modal -->
+<div class="modal fade oc_signup_modal" id="oc_signup_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="username" placeholder="Username" required="">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_name" placeholder="Bank Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_number" placeholder="Bank Account Number" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_name" placeholder="Bank Account Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="datepicker" name="birthdate" placeholder="Birthdate" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="validation_code" placeholder="Validation Code" required="">
+        </div>
+        <div class="form-group">
+          <img src="images/captcha.png" alt="captcha">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+    <div class="oc_forget_pass">
+            <!-- <a href="#">Forgot Your Password?</a> -->
+            <div class="oc_dont_have_ac">Have an account?<a href="#"> Login</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+	jQuery(document).ready( function() {
+
+        $( "#datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' });
+
+	     /*(function($, window, document, undefined) {
+		    'use strict';*/
+
+		    // init cubeportfolio
+		    $('#js-grid-mosaic-projects').cubeportfolio({
+		        filters: '#js-filters-mosaic-projects1,#js-filters-mosaic-projects2',
+		        layoutMode: 'mosaic',
+		        defaultFilter: '*',
+		        animationType: 'quicksand',
+		        gapHorizontal: 35,
+		        gapVertical: 30,
+		        gridAdjustment: 'responsive',
+		        mediaQueries: [{
+		            width: 1500,
+		            cols: 5,
+		        }, {
+		            width: 1100,
+		            cols: 4,
+		        }, {
+		            width: 800,
+		            cols: 3,
+		        }, {
+		            width: 480,
+		            cols: 2,
+		            options: {
+		                gapHorizontal: 30,
+		                gapVertical: 10,
+		            }
+		        }],
+		        caption: 'zoom',
+		        displayType: 'sequentially',
+		        displayTypeSpeed: 80,
+
+		        // lightbox
+		        lightboxDelegate: '.cbp-lightbox',
+		        lightboxGallery: true,
+		        lightboxTitleSrc: 'data-title',
+		        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+		    });
+
+		    $('#js-grid-faq').cubeportfolio({
+		        filters: '#js-filters-faq',
+		        defaultFilter: '*',
+		        animationType: 'sequentially',
+		        gridAdjustment: 'default',
+		        displayType: 'default',
+		        caption: 'expand',
+		        gapHorizontal: 0,
+		        gapVertical: 0,
+		    });
+		 /*})(jQuery, window, document);*/
+	});
+
+
+  $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
+
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+   ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = sampwidth / incno;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+</script>
+<script>
+  $(document).ready(function () {
+  $( "#toggle_btn1").click(function() {
+        $("#lucky_ratio1").css("display", "block");
+    });
+    $( ".ovrley_bg").click(function() {
+       $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+
+
+    $("#ocCustMobMenuBtn").click(function() {
+      $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+  $( "#close").click(function() {
+        $("#lucky_ratio1").css("display", "none");
+    });
+  });
+</script>
+
+</body>
+</html>

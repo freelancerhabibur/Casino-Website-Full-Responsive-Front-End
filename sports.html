@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EM88</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- load cubeportfolio css file -->
+  <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
+  <!-- load cubeportfolio jQuery plugin -->
+  <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+</head>
+<body>
+<div class="ovrley_bg"></div>
+<nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="images/logo-em88@2x.png"></a>
+      <button class="navbar-toggler ocdefmnbtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fa fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">Slots</a>
+          <li class="nav-item">
+              <a class="nav-link" href="live-casino.html">Live Casino</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">4D</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">Promotions</a>
+          </li>
+          <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li>
+        </ul>
+        <div class="buttons">
+              <a class="nav-link bp oc_login_nav" data-toggle="modal" data-target="#oc_login_modal" href="#">Login</a>
+              <a class="nav-link by oc_sign_up_nav" data-toggle="modal" data-target="#oc_signup_modal" href="#">SIGN UP</a>
+          </div>
+      </div>
+      <div class="occustmobmenu_main">
+      <button class="navbar-toggler" id="ocCustMobMenuBtn" type="button" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-close"></i>
+    </button>
+
+    <div class="occustmobmenu" id="ocCustMobMenu">
+      <div class="occustmobmenu_ulmain">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/games.svg"></span>
+                <span class="occustaspan_left_name">Home</span>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="sports.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">Sports</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/payments.svg"></span>
+                <span class="occustaspan_left_name">Slots</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="live-casino.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/tournament.svg"></span>
+                <span class="occustaspan_left_name">Live Casino</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">4D</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/promotions.svg"></span>
+                <span class="occustaspan_left_name">Promotions</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item ocmnchat">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/chat.svg"></span>
+                <span class="occustaspan_left_name">Live Chat</span>
+              </span>
+              </a>
+          </li>
+          <!-- <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li> -->
+        </ul>
+    </div>
+    </div>
+  </div>
+
+  <div class="ocmnlgsg_main">
+    <div class="ocmnlgbtn">
+      <a class="nav-link bp oc_login_nav" href="#" data-toggle="modal" data-target="#oc_login_modal">Login</a>
+    </div>
+    <div class="ocmnsgbtn">
+      <a class="nav-link by oc_sign_up_nav" href="#" data-toggle="modal" data-target="#oc_signup_modal">SIGN UP</a>
+    </div>
+  </div>
+  </nav>
+
+<div class="row banner" id="sports-banner" >
+    <div class="col-lg-6 col-md-6 col-xs-12" style="display:flex">
+      <div class="left_banner" style="margin: auto;">
+        <img src="images/pngwave@2x.png">
+        <h3>Deposit & get your Rebate daily even you are not playing</h3>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <div class="right_banner">
+        <h4><img src="images/Daco_4407486@2x.png"> WITHDRAWALS WITHIN 5 MINUTES!</h4>
+
+        <div class="contact_box">
+          <h3>SIGN UP NOW</h3>
+          <p>Get 100% Welcome Bonus with x5 Turnover only!</p>
+          <form>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r w-100" type="text" name="username" placeholder="Username">
+              </div>
+              <div class="col px-1">
+                <input class="realname w-100" type="text" name="realname" placeholder="Real name">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r phone w-100" type="text" name="phone" placeholder="Phone">
+              </div>
+              <div class="col px-1">
+                <input class=" w-100" type="email" name="Email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input type="password" class="mrg-r w-100" name="Password" placeholder="Password">
+              </div>
+              <div class="col px-1">
+                <input type="passoword" name="Confirm Password" placeholder="Confirm Password" class="w-100">
+              </div>
+            </div>
+           
+            <div class="check"><input type="checkbox" name="checkbox"> I agree the <a href="#"> T&amp;C </a> and i'm 18 years old</div>
+            <button>Sign UP</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="ocportflo_slider">
+	<!-- <div class="clearfix">
+	    <div id="js-filters-mosaic-projects1" class="cbp-l-filters-button cbp-l-filters-left">
+	        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+	        <div data-filter=".identity" class="cbp-filter-item">Identity</div>
+	        <div data-filter=".web-design" class="cbp-filter-item">Web Design</div>
+	        <div data-filter=".print" class="cbp-filter-item">Print</div>
+	    </div>
+
+	    <div id="js-filters-mosaic-projects2" class="cbp-l-filters-button cbp-l-filters-right">
+	        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+	        <div data-filter=".graphic" class="cbp-filter-item">Graphic</div>
+	        <div data-filter=".logos_prtflo" class="cbp-filter-item">Logo</div>
+	        <div data-filter=".motion" class="cbp-filter-item">Motion</div>
+	    </div>
+	</div> -->
+
+	<div class="ocportflo_headmain">
+		<h2>Sportbooks</h2>
+		<p>We are the best online sports betting site that provides players with the most exciting and latest sports games and matches from all over the globe.Click here for live casin</p>
+	</div>
+
+
+	<div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
+        <div class="cbp-item identity">
+            <a href="ajax-awesome-work/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=480x250/4f4e75" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap"></div>
+            </a>
+            <a href="ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Dashboard</a>
+            <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+        </div>
+        <div class="cbp-item web-design logos_prtflo">
+            <a href="ajax-awesome-work/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=480x250/d06583" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap"></div>
+            </a>
+            <a href="ajax-awesome-work/project2.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">World Clock</a>
+            <div class="cbp-l-grid-work-desc">Logo / Web Design</div>
+        </div>
+        <div class="cbp-item graphic logos_prtflo">
+            <a href="ajax-awesome-work/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=480x250/d2949f" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap"></div>
+            </a>
+            <a href="ajax-awesome-work/project3.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">To-Do Dashboard</a>
+            <div class="cbp-l-grid-work-desc">Graphic / Logo</div>
+        </div>
+        <div class="cbp-item web-design graphic">
+            <a href="ajax-awesome-work/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=480x250/53acad" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap"></div>
+            </a>
+            <a href="ajax-awesome-work/project4.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Events and More</a>
+            <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="ocportflo_slider_faq">
+  
+    <h2>FAQ<h2/>
+    <div id="js-grid-faq" class="cbp cbp-l-grid-faq">
+        <div class="cbp-item buying">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    What are the advices for sports betting?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        So, you like to watch sports and now you want to turn it into a way to earn some money? Then these tips might help you. Beginners are not recommended to try sports betting. It may seem simple but betting on the right bet is not that easy. Betting on the wrong sides will kill the joy of online sports betting as you would lose instead of earning. Below are some tips for sports betting
+                      <ol>
+                      <li>Pick a trusted sportsbook platform.</li>
+                      <li>Exploring different sports betting sites.</li>
+                      <li>Join a sports betting forum to look out for tips and insights.</li>
+                      <li>Master some simple sports betting techniques.</li>
+                      <li>Learn the basic knowledge of sports betting.</li>
+                      <li>Set achievable goals.</li>
+                      <li>Set a budget to bet.</li>
+                      <li>You might not always win, but it can be a good learning experience</li>
+                      <li>Compare the odds regularly.</li>
+                      <li>Keep a record.</li>
+                      <li>Ignore your personal favorites.</li>
+                      <li>Don't be overconfident when you win / don't be discouraged when you lose.</li>
+                      <li>Believe in your decisions.</li>
+                      <li>Know when to stop.</li>
+                      </ol>
+                      Tips above will allow you to have the most fun when you are betting on sports and they could help to build a strong financial foundation.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item community">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    Does sports betting depend on luck & skills?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        Sports betting is more on predicting which team wins or loses, same like how you would predict stock market rises or drop and making the correct decisions on the right time. Both luck and skills are required. You cannot be always be winning, but a skillful player will always have better result against players that gamble for fun.<br /><br />
+
+                        But winning a sports bet not only rely on skills, but on some luck as well. Luck affect many external factors that affect the bet, eg like soccer player not feeling well, thus affecting the match despite commonly perform well. In matches that have lower scores margin, luck will become an important factor especially if there are a lot of players participating in the bet.<br /><br />
+
+                        You can improve our online betting skills by experience while as luck is only a small margin affecting your outcome. Most people have a short-term mindset when it comes to sports betting. They will normally stop after taking home a large sum of money or lose a lot of money. In the long run, only the more skillful & consistent players can make profits from sports betting sites.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item buying">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    What are odds in football (soccer)?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        Before starting your football bets, it’s important to learn and understand how sports betting odds work. Sports betting odds are usually set by a football bookie, while the odds for online football bets are determined by the betting website. However, the sports betting odds provided varies to different casinos, thus it is the best to keep betting on sites you familiar with.There are two types of sports betting odds:<br/><br/>
+
+                        
+
+                      <h5>1. Fractional Odds</h5>
+                      Fractional odds are presented with two numbers divided by a slash, for example, 2/1, 3/1, and 2/3. How the sports event will likely end can be determined through simple calculation from the fractional odds. <br/><br/>
+                      <h5>2. Decimal Odds</h5>
+                      Another type of sports betting odds is in decimal point form. Some bettors may find the decimal odds easier to comprehend compared to fractional odds.
+                    
+
+                    Both sports betting odds are equally good. It all comes down to the preference of the bettors at the end of the day. Sports betting odds are just a reference for you to know how much money you can earn when you win your bet.
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1299 813l-422 422q-19 19-45 19t-45-19l-294-294q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                    </svg>
+                    What are the advantages of online football betting?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        Football betting has been a popular national event for a long time especially on world cup or any international matches. Needless to say, it is always one of the fastest growing betting in online. Due to its convenience and innovativeness, more people prefer to make football bets in sports betting sites over the past few years.
+                        <br/><br/>
+                        Below are the advantages of online football betting below. <br/><br/>
+                        <h5>Easy in Easy out</h5>
+                        Smalll deposit is required for online football bets. Once you have deposited, you can start to make online football bets anytime. You can exit anytime you don’t feel like to.<br/><br/>
+                        <h5>Popularity</h5>
+                        Football has proved to be the always favorite sports since its existance. The number of betting sites is expected to increase in the next few years due to its popularity.<br/><br/>
+                        <h5>Anytime, Anywhere</h5>
+                        Being Online is one of the best thing of online betting, sports betting are no exception. You can easily make money by using your laptop or phone from home.<br/><br/>
+                        <h5>Wide Betting Range</h5>
+                        Football is one of common sports games to bet. There are online sports such as basketball, beach volleyball, horse riding, and even, E-sports.<br/><br/>
+                        <h5>Simple & Straight forward</h5>
+                        You only need to find a good site, register an account, deposit a small amount, and start your bet. That’s all. No more finding the middle man, dealing with shady dealers or anything. All that at the comfort of your home.<br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item copyright">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    What are the Best strategies for soccer betting?
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        Football betting is the most popular gambling games, commonly for the younger players due to their interest. While horse betting is commonly for the older players. Even so, your successes in online football betting rely heavily on your football betting strategies. Here are some of the best football betting strategies as analyzed from various online sportsbooks at the follwing FAQ:
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Bet on Both Teams to Score.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        
+It means that if both of the teams you bet on score within the time limit, you win. However, it does not always come down to the two teams. Factors such as smooth passes and key passes, stronger offensive strategies or weaker defensive strategies, will contribute to the successful scoring of each team. The best way to evaluate the scoring potential of both teams is to compare the scoring styles of the forwards and the defenders, as well as a precise assessment of the previous goals and scores.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item account">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Double Chance Bets.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        The nature of football shows that there is no guarantee that one team will always win especially when it involved real money. The worst bet choice could turn out to be impactful and comes out on top, while the well-performed teams might lose. Therefore, doubling the bets could be one of the best strategies in football betting. Double Chance Bets means that you can bet on the match results whether it will end in a draw or one team winning and don’t have to pick which is the winning side. It helps to reduce the risk in a game when there is no obvious side to bet on.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Draw and Weaker Team Bets.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        If you are looking for valuable bets in football odds, then you should start developing a habit of value betting and not betting on the teams with higher winning chances. The teams with higher winning chances may be able to win a lot of games, but the odds are very low, and thus, winning are low as well. The best football betting option are on betting draws or the weaker teams.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item account">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Half Time/Full Time (HT/FT) Bets.
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        Try Bets on the team that you think will win at half time, full-time or a tie. Sportsbooks usually provide multiple football betting options with high odds which help to ease your decision-making process while you predict the outcomes in half time and full time.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item author">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Handicap Bets
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                       This betting option is considered to be very risky but good payout. For instance, if you bet on your team with 1 point handicap, it means that your team has to win the match by two points.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbp-item copyright">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#474747" d="M1408 256h-1024v1242l423-406 89-85 89 85 423 406v-1242zm12-128q23 0 44 9 33 13 52.5 41t19.5 62v1289q0 34-19.5 62t-52.5 41q-19 8-44 8-48 0-83-32l-441-424-441 424q-36 33-83 33-23 0-44-9-33-13-52.5-41t-19.5-62v-1289q0-34 19.5-62t52.5-41q21-9 44-9h1048z"/>
+                    </svg>
+                    Accumulator Bets
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-body">
+                        This is another risky bet as above. Two or more individual bets are combined in a single bet which aims to achieve a remunerative profit from a small bet. The idea is to accumulate the value of the bet. However, this will only win when all the bets are spot on. If you lose either bet, then whole bet is lost. Keep in mind when you are making this risk.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="row logos">
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/maybank-logo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/pbbankwhite.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/cimbwhitelogo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/unnamed.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/logo-dark.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/help2pay@2x.png">
+	</div>
+</div>
+
+<div class="row footer">
+	<div class="col-md-12">
+		<img id="footer_logo" src="images/logo-em88@2x.png">
+		<div class="footer_menu">
+			<a href="#">Home</a><a href="#">How It work</a><a href="#">payment</a><a href="#">faq</a><a href="#">terms & conditions</a><a href="#">complains</a><a href="#">responsible gaming</a><a href="#">affiliates</a><a href="#">tournament</a><a href="#">slots</a><a href="#">live casino</a><a href="#">sportsbook</a><a href="#">4d</a><a href="#">promotion</a><a href="#">livechat</a><a href="#">Contact Us</a><a href="#">Livescores</a>
+		</div>
+		<div class="footer_pay_icons">
+      <a href="#" title="Amatic (AMANET)" target="_blank"><img src="images/payments/amatic.svg"></a>
+      <a href="#" title="1x2 Gaming" target="_blank"><img src="images/payments/1x2gaming.svg"></a>
+      <a href="#" title="Belatra" target="_blank"><img src="images/payments/belatra.svg"></a>
+      <a href="#" title="Booming Games" target="_blank"><img src="images/payments/booming.svg"></a>
+      <a href="#" title="Bgaming" target="_blank"><img src="images/payments/bgaming.svg"></a>
+      <a href="#" title="Betsoft Gaming" target="_blank"><img src="images/payments/bsg.svg"></a>
+      <a href="#" title="Endorphina" target="_blank"><img src="images/payments/endorphina.svg"></a>
+      <a href="#" title="Evolution Gaming Live Dealers" target="_blank"><img src="images/payments/evolution.svg"></a>
+      <a href="#" title="Evoplay" target="_blank"><img src="images/payments/evoplay.svg"></a>
+      <a href="#" title="Ezugi" target="_blank"><img src="images/payments/ezugi.svg"></a>
+      <a href="#" title="GameArt" target="_blank"><img src="images/payments/gameart.svg"></a>
+      <a href="#" title="Habanero" target="_blank"><img src="images/payments/habanero.svg"></a>
+      <a href="" title="IGTech" target="_blank"><img src="images/payments/igtech.svg"></a>
+      <a href="#" title="Iron Dog Studio" target="_blank"><img src="images/payments/irondogstudio.svg"></a>
+      <a href="#" title="Isoftbet" target="_blank"><img src="images/payments/isoftbet.svg"></a>
+      <a href="#" title="Micrograming / Quickfire" target="_blank"><img src="images/payments/microgaming.svg"></a>
+      <a href="#" title="MrSlotty" target="_blank"><img src="images/payments/mrslotty.svg"></a>
+      <a href="#" title="NetEnt ( Net Entertainment )" target="_blank"><img src="images/payments/netent.svg"></a>
+      <a href="#" title="NoLimit City" target="_blank"><img src="images/payments/nolimit.svg"></a>
+      <a href="#" title="Platipus" target="_blank"><img src="images/payments/platipus.svg"></a>
+      <a href="#" title="Pragmatic Play" target="_blank"><img src="images/payments/pragmatic.svg"></a>
+      <a href="#" title="Play'n GO" target="_blank"><img src="images/payments/playngo.svg"></a>
+      <a href="#" title="Spinomenal" target="_blank"><img src="images/payments/spinomenal.svg"></a>
+      <a href="#" title="Quickspin" target="_blank"><img src="images/payments/quickspin.svg"></a>
+      <a href="#" title="Vivogaming" target="_blank"><img src="images/payments/vivogaming.svg"></a>
+      <a href="#" title="Yggdrasil GAming" target="_blank"><img src="images/payments/yggdrasil.svg"></a>
+      <div class="footer_pay_icons_inner">
+        <a href="#" target="_blank"><img src="images/payments/bitcoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/litecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/dogecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/bitcoincash.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ethereum.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/tether.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neosurf.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/russiancards.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/visa.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/mastercard.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/sofort.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/skrill.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neteller.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ecopayz.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/instadebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/idebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/interac.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/etransfer.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/yandex.svg"></a>
+      </div>
+    </div>
+	</div>
+</div>
+
+
+<!-- Login Popup Modal -->
+<div class="modal fade oc_login_modal" id="oc_login_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <div class="oc_forget_pass">
+            <a href="#">Forgot Your Password?</a>
+            <div class="oc_dont_have_ac">Don't have an account?<a href="#"> Sign Up</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sign Up Popup Modal -->
+<div class="modal fade oc_signup_modal" id="oc_signup_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="username" placeholder="Username" required="">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_name" placeholder="Bank Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_number" placeholder="Bank Account Number" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_name" placeholder="Bank Account Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="datepicker" name="birthdate" placeholder="Birthdate" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="validation_code" placeholder="Validation Code" required="">
+        </div>
+        <div class="form-group">
+          <img src="images/captcha.png" alt="captcha">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+    <div class="oc_forget_pass">
+            <!-- <a href="#">Forgot Your Password?</a> -->
+            <div class="oc_dont_have_ac">Have an account?<a href="#"> Login</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+	jQuery(document).ready( function() {
+
+        $( "#datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' });
+
+	     /*(function($, window, document, undefined) {
+		    'use strict';*/
+
+		    // init cubeportfolio
+		    $('#js-grid-awesome-work').cubeportfolio({
+		        filters: '#js-filters-awesome-work',
+		        layoutMode: 'grid',
+		        defaultFilter: '*',
+		        animationType: 'scaleSides',
+		        gapHorizontal: 30,
+		        gapVertical: 30,
+		        gridAdjustment: 'responsive',
+		        mediaQueries: [{
+                width: 1500,
+                cols: 2,
+            }, {
+                width: 1100,
+                cols: 2,
+            }, {
+                width: 600,
+                cols: 2,
+            }, {
+                width: 480,
+                cols: 1,
+                options: {
+                    gapHorizontal: 30,
+                    gapVertical: 10,
+                }
+            }],
+		        caption: 'zoom',
+		        displayType: 'fadeIn',
+		        displayTypeSpeed: 400,
+
+		        // singlePage popup
+		        singlePageDelegate: '.cbp-singlePage',
+		        singlePageDeeplinking: true,
+		        singlePageStickyNavigation: true,
+		        singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+		        singlePageCallback: function(url, element) {
+		            // to update singlePage content use the following method: this.updateSinglePage(yourContent)
+		            var t = this;
+
+		            $.ajax({
+		                    url: url,
+		                    type: 'GET',
+		                    dataType: 'html',
+		                    timeout: 30000
+		                })
+		                .done(function(result) {
+		                    t.updateSinglePage(result);
+		                })
+		                .fail(function() {
+		                    t.updateSinglePage('AJAX Error! Please refresh the page!');
+		                });
+		        },
+
+		        plugins: {
+		            loadMore: {
+		                element: '#js-loadMore-awesome-work',
+		                action: 'click',
+		                loadItems: 3,
+		            }
+		        },
+		    });
+
+        $('#js-grid-faq').cubeportfolio({
+            filters: '#js-filters-faq',
+            defaultFilter: '*',
+            animationType: 'sequentially',
+            gridAdjustment: 'default',
+            displayType: 'default',
+            caption: 'expand',
+            gapHorizontal: 0,
+            gapVertical: 0,
+        });
+		 /*})(jQuery, window, document);*/
+	});
+
+
+  $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
+
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+   ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = sampwidth / incno;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+  $( "#toggle_btn1").click(function() {
+        $("#lucky_ratio1").css("display", "block");
+    });
+    $( ".ovrley_bg").click(function() {
+       $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+
+
+    $("#ocCustMobMenuBtn").click(function() {
+      $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+  $( "#close").click(function() {
+        $("#lucky_ratio1").css("display", "none");
+    });
+  });
+</script>
+
+<script>
+	$(document).ready(function () {
+	$( "#close").click(function() {
+        $("#lucky_ratio1").css("display", "none");
+    });
+	});
+</script>
+</body>
+</html>

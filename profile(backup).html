@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EM88</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- load cubeportfolio css file -->
+  <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
+  <!-- load cubeportfolio jQuery plugin -->
+  <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      $('.input-daterange').datepicker({
+        format: 'dd-mm-yyyy',
+        autoclose: true,
+        calendarWeeks : true,
+        clearBtn: true,
+        disableTouchKeyboard: true
+      });
+
+      });
+  </script>
+</head>
+<body>
+<div class="ovrley_bg"></div>
+<nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="images/logo-em88@2x.png"></a>
+      <button class="navbar-toggler ocdefmnbtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fa fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">Slots</a>
+          <li class="nav-item">
+              <a class="nav-link" href="live-casino.html">Live Casino</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">4D</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">Promotions</a>
+          </li>
+          <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li>
+        </ul>
+        <div class="buttons">
+              <a class="nav-link bp oc_login_nav" data-toggle="modal" data-target="#oc_login_modal" href="#">Login</a>
+              <a class="nav-link by oc_sign_up_nav" data-toggle="modal" data-target="#oc_signup_modal" href="#">SIGN UP</a>
+          </div>
+      </div>
+      <div class="occustmobmenu_main">
+      <button class="navbar-toggler" id="ocCustMobMenuBtn" type="button" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-close"></i>
+    </button>
+
+    <div class="occustmobmenu" id="ocCustMobMenu">
+      <div class="occustmobmenu_ulmain">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/games.svg"></span>
+                <span class="occustaspan_left_name">Home</span>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="sports.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">Sports</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="slots.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/payments.svg"></span>
+                <span class="occustaspan_left_name">Slots</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="live-casino.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/tournament.svg"></span>
+                <span class="occustaspan_left_name">Live Casino</span>
+              </span>
+              </a>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/vip.svg"></span>
+                <span class="occustaspan_left_name">4D</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="promotions.html">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/promotions.svg"></span>
+                <span class="occustaspan_left_name">Promotions</span>
+              </span>
+              </a>
+          </li>
+          <li class="nav-item ocmnchat">
+              <a class="nav-link" href="#">
+                <span class="occustaspan_left">
+                <span class="occustaspan_left_icon"><img src="images/chat.svg"></span>
+                <span class="occustaspan_left_name">Live Chat</span>
+              </span>
+              </a>
+          </li>
+          <!-- <li class="nav-item ysp">
+              <a class="nav-link" href="#"><i class="fa fa-comment"></i> Live Chat</a>
+          </li> -->
+        </ul>
+    </div>
+    </div>
+  </div>
+
+  <div class="ocmnlgsg_main">
+    <div class="ocmnlgbtn">
+      <a class="nav-link bp oc_login_nav" href="#" data-toggle="modal" data-target="#oc_login_modal">Login</a>
+    </div>
+    <div class="ocmnsgbtn">
+      <a class="nav-link by oc_sign_up_nav" href="#" data-toggle="modal" data-target="#oc_signup_modal">SIGN UP</a>
+    </div>
+  </div>
+  </nav>
+
+<div class="row banner" id="sports-banner" >
+    <div class="col-lg-6 col-md-6 col-xs-12" style="display:flex">
+      <div class="left_banner" style="margin: auto;">
+        <img src="images/pngwave@2x.png">
+        <h3>Deposit & get your Rebate daily even you are not playing</h3>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <div class="right_banner">
+        <h4><img src="images/Daco_4407486@2x.png"> WITHDRAWALS WITHIN 5 MINUTES!</h4>
+
+        <div class="contact_box">
+          <h3>SIGN UP NOW</h3>
+          <p>Get 100% Welcome Bonus with x5 Turnover only!</p>
+          <form>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r w-100" type="text" name="username" placeholder="Username">
+              </div>
+              <div class="col px-1">
+                <input class="realname w-100" type="text" name="realname" placeholder="Real name">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input class="mrg-r phone w-100" type="text" name="phone" placeholder="Phone">
+              </div>
+              <div class="col px-1">
+                <input class=" w-100" type="email" name="Email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-1">
+                <input type="password" class="mrg-r w-100" name="Password" placeholder="Password">
+              </div>
+              <div class="col px-1">
+                <input type="passoword" name="Confirm Password" placeholder="Confirm Password" class="w-100">
+              </div>
+            </div>
+           
+            <div class="check"><input type="checkbox" name="checkbox"> I agree the <a href="#"> T&amp;C </a> and i'm 18 years old</div>
+            <button>Sign UP</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="body-profile">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="title">
+        <h2>PROFILE</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="left_bar">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation"><a href="#online_payment" aria-controls="online_payment" role="tab" data-toggle="tab">Online Payment</a></li>
+          <li role="presentation"><a href="#deposit" aria-controls="deposit" role="tab" data-toggle="tab">Deposit</a></li>
+          <li role="presentation"><a href="#withdrawal" aria-controls="withdrawal" role="tab" data-toggle="tab">Withdrawal</a></li>
+          <li role="presentation"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab">Transfer</a></li>
+          <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+          <li role="presentation"><a href="#rebate" aria-controls="rebate" role="tab" data-toggle="tab">Rebate</a></li>
+          <li role="presentation"><a href="#voucher" aria-controls="voucher" role="tab" data-toggle="tab">Voucher</a></li>
+          <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="right_bar">
+        <div class="tab-content">
+           <div role="tabpanel" class="tab-pane " id="online_payment">
+            
+          </div>
+          <div role="tabpanel" class="tab-pane " id="deposit">
+            
+          </div>
+          <div role="tabpanel" class="tab-pane" id="withdrawal">
+            
+          </div>
+          <div role="tabpanel" class="tab-pane" id="transfer">
+            <div class="tab-content">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>From</label>
+                      </div>
+                      <div class="col-md-10">
+                      <select id="disabledSelect" class="form-control">
+                        <option value="please_select">Please Select</option>
+                        <option value="please_select">Please Select</option>
+                      </select>
+                    </div>
+                    </li>   
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>To</label>
+                      </div>
+                      <div class="col-md-10">
+                      <select id="disabledSelect" class="form-control">
+                        <option value="please_select">Please Select</option>
+                        <option value="please_select">Please Select</option>
+                      </select>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>Amount</label>
+                      </div>
+                      <div class="col-md-10">
+                      <input type="text" class="form-control refrence_class" name="amount">
+                      </div>
+                    </li>
+                    <div class="transfer_button"> 
+                    <button type="button" class="btn btn-transfer_max">Transfer MAX</button>
+                    <button type="button" class="btn btn-transfer_all">Transfer All</button>  
+                    </div>          
+                    <li>
+                      <div class="submit_button2">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="history">
+            <div class="tab-content">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>Report Type</label>
+                      </div>
+                      <div class="col-md-10">
+                      <select id="disabledSelect" class="form-control">
+                        <option value="please_select">Please Select</option>
+                        <option value="please_select">Please Select</option>
+                      </select>
+                      </div>
+                    </li>  
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>From</label>
+                      </div>
+                      <div class="col-md-10">
+                      <div class="input-group input-daterange"> 
+                          <input type="text" id="start1" class="form-control text-left mr-2"> 
+                          <span class="fa fa-calendar" id="fa-1"></span> 
+                          
+                        </div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-2">
+                      <label>To</label>
+                      </div>
+                      <div class="col-md-10">
+                        <div class="input-group input-daterange"> 
+                          <input type="text" id="start" class="form-control text-left mr-2"> 
+                          <span class="fa fa-calendar" id="fa-1"></span> 
+                          
+                        </div>
+                      </div>
+                    </li>                  
+                    <li class="row">
+                      <div class="col-md-2"></div>
+                      <div class="col-md-10 ">
+                      <div class="submit_button2">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </div>
+                    </li>
+                  </ul>
+                </form>
+                <div class="entries_show_main">
+                  <label>show</label>
+                  <input type="number" class="number_value" name="show_entries" value="10">
+                  <lable>entries</label>
+                </div>
+                <table class="table table-bordered">                  
+                  <thead>
+                    <tr>
+                      <th>Transaction No</th>
+                      <th>Amount</th>
+                      <th>Status</th>
+                      <th>Transaction Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="5" align="center">No Record</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="pn_button" align="right">
+                  <button class="btn btn-default" type="submit">Previous</button>
+                  <button class="btn btn-default" type="submit">Next</button>
+                </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="rebate">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Suite</th>
+                  <th>Type</th>
+                  <th>Rebate(%)</th>
+                  <th>Turnover</th>
+                  <th>Rebate Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Product 1</td>
+                  <td>1</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 2</td>
+                  <td>2</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 3</td>
+                  <td>3</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 4</td>
+                  <td>4</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 5</td>
+                  <td>5</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 6</td>
+                  <td>6</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 7</td>
+                  <td>7</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 8</td>
+                  <td>8</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 9</td>
+                  <td>9</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+                <tr>
+                  <td>Product 10</td>
+                  <td>10</td>
+                  <td>1.50%</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="4" align="right">Total:</td>
+                  <td>0.0</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="voucher">
+             <div class="tab-content">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li>
+                      <label>Voucher Code</label>
+                      <input type="text" class="form-control refrence_class" name="voucher_code">
+                    </li>                    
+                    <li>
+                      <div class="submit_button">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane active" id="profile">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#personal_detail" aria-controls="personal_detail" role="tab" data-toggle="tab">Personal Detail</a></li>
+              <li role="presentation"><a href="#change_password" aria-controls="change_password" role="tab" data-toggle="tab">Change Password</a></li>
+              <li role="presentation"><a href="#banking_detail" aria-controls="banking_detail" role="tab" data-toggle="tab">Banking Details</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="personal_detail">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li>
+                      <label>Username</label>
+                      <input type="text" class="form-control" name="username">
+                    </li>
+                    <li>
+                      <label>Contact No.</label>
+                      <input type="number" class="form-control" name="contact_no">
+                    </li>
+                    <li>
+                      <label>Referral ID</label>
+                      <input type="text" class="form-control" name="referral_id">
+                    </li>
+                    <li>
+                      <label>Full Name</label>
+                      <input type="text" class="form-control" name="full_name">
+                    </li>
+                    <li>
+                      <label>Email</label>
+                      <input type="text" class="form-control" name="email">
+                    </li>
+                    <li>
+                      <label>Birth Date</label>
+                      <input type="text" class="form-control" name="birth_date">
+                    </li>
+                    <li>
+                      <label>Line</label>
+                      <input type="text" class="form-control" name="line">
+                    </li>
+                    <li>
+                      <label>Zalo</label>
+                      <input type="text" class="form-control" name="zalo">
+                    </li>
+                     <li>
+                      <div class="submit_button">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="change_password">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li>
+                      <label>Current Password</label>
+                      <input type="text" class="form-control" name="current_password">
+                    </li>
+                    <li>
+                      <label>New Password</label>
+                      <input type="text" class="form-control" name="new_password">
+                    </li>
+                    <li>
+                      <label>Confirm Password</label>
+                      <input type="text" class="form-control" name="confirm_password">
+                    </li>                   
+                    <li>
+                      <div class="submit_button">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="banking_detail">
+                <form class="form_data">
+                  <ul class="data_li">
+                    <li>
+                      <label>Bank Name</label>
+                      <input type="text" class="form-control" name="bank_name">
+                    </li>
+                    <li>
+                      <label>Bank Account Name</label>
+                      <input type="text" class="form-control" name="bank_account_name">
+                    </li>
+                    <li>
+                      <label>Bank account number</label>
+                      <input type="number" class="form-control" name="bank_account_number">
+                    </li>
+                    <li>
+                      <label>Bank Branch</label>
+                      <input type="text" class="form-control" name="bank_branch">
+                    </li>
+                    <li>
+                      <div class="submit_button">
+                        <input type="submit" class="btn btn-default" name="submit">
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row logos">
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/maybank-logo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/pbbankwhite.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/cimbwhitelogo.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/unnamed.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/logo-dark.png">
+	</div>
+	<div class="col-md-2 col-sm-4 col-4">
+		<img src="images/help2pay@2x.png">
+	</div>
+</div>
+
+<div class="row footer">
+	<div class="col-md-12">
+		<img id="footer_logo" src="images/logo-em88@2x.png">
+		<div class="footer_menu">
+			<a href="#">Home</a><a href="#">How It work</a><a href="#">payment</a><a href="#">faq</a><a href="#">terms & conditions</a><a href="#">complains</a><a href="#">responsible gaming</a><a href="#">affiliates</a><a href="#">tournament</a><a href="#">slots</a><a href="#">live casino</a><a href="#">sportsbook</a><a href="#">4d</a><a href="#">promotion</a><a href="#">livechat</a><a href="#">Contact Us</a><a href="#">Livescores</a>
+		</div>
+		<div class="footer_pay_icons">
+      <a href="#" title="Amatic (AMANET)" target="_blank"><img src="images/payments/amatic.svg"></a>
+      <a href="#" title="1x2 Gaming" target="_blank"><img src="images/payments/1x2gaming.svg"></a>
+      <a href="#" title="Belatra" target="_blank"><img src="images/payments/belatra.svg"></a>
+      <a href="#" title="Booming Games" target="_blank"><img src="images/payments/booming.svg"></a>
+      <a href="#" title="Bgaming" target="_blank"><img src="images/payments/bgaming.svg"></a>
+      <a href="#" title="Betsoft Gaming" target="_blank"><img src="images/payments/bsg.svg"></a>
+      <a href="#" title="Endorphina" target="_blank"><img src="images/payments/endorphina.svg"></a>
+      <a href="#" title="Evolution Gaming Live Dealers" target="_blank"><img src="images/payments/evolution.svg"></a>
+      <a href="#" title="Evoplay" target="_blank"><img src="images/payments/evoplay.svg"></a>
+      <a href="#" title="Ezugi" target="_blank"><img src="images/payments/ezugi.svg"></a>
+      <a href="#" title="GameArt" target="_blank"><img src="images/payments/gameart.svg"></a>
+      <a href="#" title="Habanero" target="_blank"><img src="images/payments/habanero.svg"></a>
+      <a href="" title="IGTech" target="_blank"><img src="images/payments/igtech.svg"></a>
+      <a href="#" title="Iron Dog Studio" target="_blank"><img src="images/payments/irondogstudio.svg"></a>
+      <a href="#" title="Isoftbet" target="_blank"><img src="images/payments/isoftbet.svg"></a>
+      <a href="#" title="Micrograming / Quickfire" target="_blank"><img src="images/payments/microgaming.svg"></a>
+      <a href="#" title="MrSlotty" target="_blank"><img src="images/payments/mrslotty.svg"></a>
+      <a href="#" title="NetEnt ( Net Entertainment )" target="_blank"><img src="images/payments/netent.svg"></a>
+      <a href="#" title="NoLimit City" target="_blank"><img src="images/payments/nolimit.svg"></a>
+      <a href="#" title="Platipus" target="_blank"><img src="images/payments/platipus.svg"></a>
+      <a href="#" title="Pragmatic Play" target="_blank"><img src="images/payments/pragmatic.svg"></a>
+      <a href="#" title="Play'n GO" target="_blank"><img src="images/payments/playngo.svg"></a>
+      <a href="#" title="Spinomenal" target="_blank"><img src="images/payments/spinomenal.svg"></a>
+      <a href="#" title="Quickspin" target="_blank"><img src="images/payments/quickspin.svg"></a>
+      <a href="#" title="Vivogaming" target="_blank"><img src="images/payments/vivogaming.svg"></a>
+      <a href="#" title="Yggdrasil GAming" target="_blank"><img src="images/payments/yggdrasil.svg"></a>
+      <div class="footer_pay_icons_inner">
+        <a href="#" target="_blank"><img src="images/payments/bitcoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/litecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/dogecoin.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/bitcoincash.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ethereum.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/tether.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neosurf.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/russiancards.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/visa.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/mastercard.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/sofort.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/skrill.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/neteller.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/ecopayz.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/instadebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/idebit.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/interac.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/etransfer.svg"></a>
+        <a href="#" rel="nofollow" target="_blank"><img src="images/payments/yandex.svg"></a>
+      </div>
+    </div>
+	</div>
+</div>
+
+
+<!-- Login Popup Modal -->
+<div class="modal fade oc_login_modal" id="oc_login_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <div class="oc_forget_pass">
+            <a href="#">Forgot Your Password?</a>
+            <div class="oc_dont_have_ac">Don't have an account?<a href="#"> Sign Up</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sign Up Popup Modal -->
+<div class="modal fade oc_signup_modal" id="oc_signup_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="username" placeholder="Username" required="">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_name" placeholder="Bank Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_number" placeholder="Bank Account Number" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="bank_ac_name" placeholder="Bank Account Name" required="">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="datepicker" name="birthdate" placeholder="Birthdate" required="">
+        </div>
+      </div>
+      <div class="oc_form_cl">
+        <div class="form-group">
+          <input type="text" class="form-control" name="validation_code" placeholder="Validation Code" required="">
+        </div>
+        <div class="form-group">
+          <img src="images/captcha.png" alt="captcha">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+    <div class="oc_forget_pass">
+            <!-- <a href="#">Forgot Your Password?</a> -->
+            <div class="oc_dont_have_ac">Have an account?<a href="#"> Login</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+	jQuery(document).ready( function() {
+
+        $( "#datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' });
+
+	     /*(function($, window, document, undefined) {
+		    'use strict';*/
+
+		    // init cubeportfolio
+		    $('#js-grid-awesome-work').cubeportfolio({
+		        filters: '#js-filters-awesome-work',
+		        layoutMode: 'grid',
+		        defaultFilter: '*',
+		        animationType: 'scaleSides',
+		        gapHorizontal: 30,
+		        gapVertical: 30,
+		        gridAdjustment: 'responsive',
+		        mediaQueries: [{
+                width: 1500,
+                cols: 2,
+            }, {
+                width: 1100,
+                cols: 2,
+            }, {
+                width: 600,
+                cols: 2,
+            }, {
+                width: 480,
+                cols: 1,
+                options: {
+                    gapHorizontal: 30,
+                    gapVertical: 10,
+                }
+            }],
+		        caption: 'zoom',
+		        displayType: 'fadeIn',
+		        displayTypeSpeed: 400,
+
+		        // singlePage popup
+		        singlePageDelegate: '.cbp-singlePage',
+		        singlePageDeeplinking: true,
+		        singlePageStickyNavigation: true,
+		        singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+		        singlePageCallback: function(url, element) {
+		            // to update singlePage content use the following method: this.updateSinglePage(yourContent)
+		            var t = this;
+
+		            $.ajax({
+		                    url: url,
+		                    type: 'GET',
+		                    dataType: 'html',
+		                    timeout: 30000
+		                })
+		                .done(function(result) {
+		                    t.updateSinglePage(result);
+		                })
+		                .fail(function() {
+		                    t.updateSinglePage('AJAX Error! Please refresh the page!');
+		                });
+		        },
+
+		        plugins: {
+		            loadMore: {
+		                element: '#js-loadMore-awesome-work',
+		                action: 'click',
+		                loadItems: 3,
+		            }
+		        },
+		    });
+
+        $('#js-grid-faq').cubeportfolio({
+            filters: '#js-filters-faq',
+            defaultFilter: '*',
+            animationType: 'sequentially',
+            gridAdjustment: 'default',
+            displayType: 'default',
+            caption: 'expand',
+            gapHorizontal: 0,
+            gapVertical: 0,
+        });
+		 /*})(jQuery, window, document);*/
+	});
+
+
+  $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
+
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+   ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = sampwidth / incno;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+  $( "#toggle_btn1").click(function() {
+        $("#lucky_ratio1").css("display", "block");
+    });
+    $( ".ovrley_bg").click(function() {
+       $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+
+
+    $("#ocCustMobMenuBtn").click(function() {
+      $(".occustmobmenu").toggleClass("occustmobmenu_open");
+      $("body").toggleClass("occustmobmn_opn");
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+  $( "#close").click(function() {
+        $("#lucky_ratio1").css("display", "none");
+    });
+  });
+</script>
+
+<script>
+	$(document).ready(function () {
+	$( "#close").click(function() {
+        $("#lucky_ratio1").css("display", "none");
+    });
+	});
+</script>
+
+
+</body>
+</html>
