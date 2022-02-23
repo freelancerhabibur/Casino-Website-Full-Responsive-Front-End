@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="26px" viewBox="0 0 93 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>litecoin white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="litecoin-white" fill="#FFFFFF">
+            <path d="M13,26 C5.82029825,26 0,20.1797017 0,13 C0,5.82029825 5.82029825,0 13,0 C20.1797017,0 26,5.82029825 26,13 C26,20.1797017 20.1797017,26 13,26 Z M11.679154,17.0970982 L12.5614672,12.8964778 L17.0205396,9.83959162 L17.5432436,7.34304138 L13.0832736,10.4124255 L14.3499849,4.38199581 L10.924444,4.38199581 L9.08455356,13.1643204 L7.20868842,14.4554062 L6.77312478,16.8648161 L8.56647589,15.6353224 L7.64411395,20.0384647 L18.617238,20.0384647 L19.2268752,17.0970982 L11.679154,17.0970982 Z" id="Oval"></path>
+            <text id="Litecoin" font-family="Rubik-Regular, Rubik" font-size="16" font-weight="normal" line-spacing="26">
+                <tspan x="34" y="15">Litecoin</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

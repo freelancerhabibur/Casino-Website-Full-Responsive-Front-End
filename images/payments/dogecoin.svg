@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="26px" viewBox="0 0 104 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dogecoin white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dogecoin-white" fill="#FFFFFF">
+            <path d="M13,26 C5.82029825,26 0,20.1797017 0,13 C0,5.82029825 5.82029825,0 13,0 C20.1797017,0 26,5.82029825 26,13 C26,20.1797017 20.1797017,26 13,26 Z M12.4816518,5.32984118 L8.07332042,5.32984118 L8.07332042,12.1588931 L6.26276783,12.1588931 L6.26276783,13.8315458 L8.07338806,13.8315458 L8.07338806,20.6605977 L13.2099713,20.6605977 C13.2099713,20.6605977 20.4324334,21.2656933 20.4324334,13.1231099 C20.4324334,5.11328635 13.5247265,5.32984118 12.4816518,5.32984118 Z M10.966309,17.8266714 L10.966309,13.8316135 L14.1545074,13.8316135 L14.1545074,12.1589607 L10.966309,12.1589607 L10.966309,8.16378781 L12.9933488,8.16378781 C13.7510878,8.16378781 17.5639949,8.46873651 17.5698112,13.1784998 C17.5757627,17.8881954 13.6378057,17.8266511 13.0918197,17.8266511 L10.966309,17.8266714 Z" id="Oval"></path>
+            <text id="Dogecoin" font-family="Rubik-Regular, Rubik" font-size="16" font-weight="normal" line-spacing="26">
+                <tspan x="34" y="15">Dogecoin</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
